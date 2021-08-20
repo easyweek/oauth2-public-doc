@@ -70,7 +70,7 @@ Method: **POST**
 
 ### Request
 
-URL: `https://my.easyweek.io/api/ext/services/zapier/me`
+URL: `https://my.easyweek.io/api/ext/me`
 
 ```
 "headers": {
@@ -90,7 +90,7 @@ URL: `https://my.easyweek.io/api/ext/services/zapier/me`
 
 ## Trigger: Watch New User Bookings
 
-URL: `https://my.easyweek.io/api/ext/services/zapier/user/bookings`
+URL: `https://my.easyweek.io/api/ext/user/bookings`
 
 Method: **GET**
 
@@ -138,7 +138,7 @@ Method: **GET**
 
 ## Trigger: Watch New Bookings
 
-URL: `https://my.easyweek.io/api/ext/services/zapier/bookings`
+URL: `https://my.easyweek.io/api/ext/bookings`
 
 Method: **GET**
 
