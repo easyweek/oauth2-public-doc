@@ -94,6 +94,13 @@ URL: `https://my.easyweek.io/api/ext/user/bookings`
 
 Method: **GET**
 
+Parameters:
+
+| Parameter | Required | Format | Description |
+| ------ | ------ | ------ | ------ |
+| date_start | required with date_end | datetime (e.g. 2021-08-01T08:22:50) | start of the period to filter bookings by creation date |
+| date_end | required with date_start | datetime (e.g. 2021-08-01T08:22:50) | end of the period to filter bookings by creation date |
+
 ### Response Example
 
 ```
@@ -141,6 +148,13 @@ Method: **GET**
 URL: `https://my.easyweek.io/api/ext/bookings`
 
 Method: **GET**
+
+Parameters:
+
+| Parameter | Required | Format | Description |
+| ------ | ------ | ------ | ------ |
+| date_start | required with date_end | datetime (e.g. 2021-08-01T08:22:50) | start of the period to filter bookings by creation date |
+| date_end | required with date_start | datetime (e.g. 2021-08-01T08:22:50) | end of the period to filter bookings by creation date |
 
 ### Response Example
 
